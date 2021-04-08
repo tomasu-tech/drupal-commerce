@@ -34,6 +34,7 @@ if (count($_SERVER['argv']) === 1) {
         '--host' => '0.0.0.0',
         '--port' => '8888',
         '--suppress-login' => TRUE,
+        '--langcode' => 'ja',
     ];
     $application->run(new ArrayInput($arguments));
 }
